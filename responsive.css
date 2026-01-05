@@ -1,0 +1,75 @@
+/* --- Media Queries pour tablettes et mobiles --- */
+
+/* Smartphones (max-width: 600px) */
+@media (max-width: 900px) {
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    header > :first-child {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .marque {
+        font-size: 50px;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header > :last-child .nav {
+        flex-direction: column;
+    }
+
+    header > :last-child form.form-inline {
+        flex-direction: column;
+    }
+
+    .form-control {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .recherche {
+        border-radius: 25px;
+    }
+
+    .explium {
+        margin: 5%;
+        font-size: 16px;
+    }
+
+    .video {
+        margin: 10%;
+    }
+
+    .video2 {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        max-height: 40%;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .footeer {
+        max-width: 50%;
+    }
+}
+
+/* Ajustements généraux pour images et vidéos */
+img, .video2, .card-img-top {
+    max-width: 100%;
+    height: auto;
+}
