@@ -224,4 +224,15 @@ footer .footeer {
     align-items: center;
     max-width: 10%;
 }
+footer h4 {
+    color: #4A4A4A;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
+footer p {
+    color: #4A4A4A;
+    font-size: 18px;
+    margin: 5px 0;
+    line-height: 1.4;
+}
