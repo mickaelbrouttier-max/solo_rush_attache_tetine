@@ -236,3 +236,8 @@ footer p {
     margin: 5px 0;
     line-height: 1.4;
 }
+footer p:hover {
+    color: #073f68;
+    transform: scale(1.05);
+    cursor: pointer;
+}
